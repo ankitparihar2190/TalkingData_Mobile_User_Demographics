@@ -1,0 +1,51 @@
+phone_brand,device_model,hour_bin,cluster_label_dbscan,is_active,category,gender,gender_pred
+Xiaomi,MI 3,night,6.0,0.0,Customized 1,M,female
+Coolpad,F2,Morning,7.0,1.0,Higher income,M,male
+Huawei,hu1,Afternoon,23.0,1.0,Financial Services,M,male
+Huawei,hu1 Plus,Morning,5.0,0.0,service,M,female
+Huawei,MT2-C00,Evening,13.0,1.0,Liquid medium,M,female
+Xiaomi,MI 4,Morning,23.0,0.0,Industry tag,F,male
+Xiaomi,MI 3,Morning,23.0,0.0,Property Industry,M,male
+kupo,L7,Morning,23.0,1.0,Higher income,M,male
+Huawei,éº¦èŠ’4,Morning,3.0,0.0,Property Industry,F,male
+Xiaomi,xnote,Morning,23.0,0.0,Financial Services,M,male
+Huawei,hu1 Plus,Morning,23.0,1.0,Finance,F,male
+Huawei,è£è€€ç•…çŽ©4,Morning,23.0,0.0,Services 1,F,male
+OPPO,R7,night,23.0,1.0,Low Risk,M,male
+Huawei,X1 7.0,Morning,23.0,0.0,Property Industry,M,male
+Huawei,Mate 7,night,23.0,1.0,foreign language,M,female
+Huawei,è£è€€7,Morning,0.0,0.0,video,F,male
+OPPO,A31,Evening,7.0,0.0,Low liquidity,M,male
+OPPO,R7s,Morning,23.0,0.0,free,M,male
+Xiaomi,MI 2,Morning,23.0,0.0,Property Industry,M,male
+Huawei,hu1 Plus,Afternoon,7.0,0.0,Internet banking,M,male
+Huawei,hu1,Afternoon,23.0,0.0,Low liquidity,M,male
+Huawei,éº¦èŠ’4,Evening,23.0,0.0,Finance,M,female
+vivo,Y51,night,11.0,0.0,Financial Services,M,male
+Huawei,hu1 Plus,Morning,23.0,0.0,Custom label,M,male
+Huawei,Ascend P8,Morning,23.0,0.0,And the Church,F,male
+Huawei,hu1 Plus,Afternoon,7.0,0.0,free,M,male
+Coolpad,ivvi å°éª¨Pro,night,23.0,0.0,Services 1,M,male
+Coolpad,ivvi å°éª¨Pro,Afternoon,23.0,1.0,Services 1,M,male
+CUBE,S2,Morning,23.0,1.0,Finance,M,female
+Huawei,éº¦èŠ’4,Afternoon,23.0,0.0,Finance,M,female
+Huawei,hu1 Plus,Afternoon,23.0,1.0,Liquid medium,M,male
+Huawei,hu1 Plus,night,23.0,0.0,SLG (strategy),M,male
+Huawei,hu1 Plus,Morning,7.0,1.0,Low Risk,F,female
+Huawei,Mate 2,Evening,0.0,1.0,Low liquidity,M,male
+Huawei,hu1,Morning,23.0,1.0,Trendy / cool 1,M,male
+Huawei,Ascend P8,Morning,23.0,0.0,Finance,M,male
+lenovo,ä¹æª¬K3,Evening,23.0,1.0,Low liquidity,M,male
+Huawei,hu1 Plus,night,7.0,1.0,Low income,F,male
+Huawei,è£è€€ç•…çŽ©5X,Morning,23.0,0.0,Property Industry,M,male
+Huawei,hu1,Evening,23.0,1.0,Low income,M,male
+Meizu,menote1 2,night,23.0,0.0,Liquid medium,F,male
+OPPO,R7 Plus,Evening,6.0,0.0,Industry tag,M,female
+Xiaomi,MI 5,Afternoon,6.0,0.0,Customized 1,M,male
+Huawei,éº¦èŠ’4,night,23.0,0.0,free,M,female
+OPPO,R2017,Morning,23.0,1.0,Wealth Management,M,male
+lshi,è¶…çº§æ‰‹æœº1 Pro,Afternoon,0.0,1.0,Low Risk,F,male
+samsung,Galaxy Note 5,Morning,6.0,0.0,Low income,M,male
+Huawei,éº¦èŠ’4,Morning,23.0,0.0,Services 1,F,female
+Sony,Xperia Z Ultra,night,23.0,1.0,Low income,M,female
+Coolpad,45rggt2,Morning,3.0,1.0,Low liquidity,M,male

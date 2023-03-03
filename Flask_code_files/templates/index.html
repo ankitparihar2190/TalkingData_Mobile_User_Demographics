@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+
+<head>
+  <meta charset="UTF-8">
+  <title>User Age and Gender prediction </title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+  <!-- <div class="login"> -->
+   <h1>Predict Gender/AGE</h1>
+
+  <!--   Main Input For Receiving Query to our ML for the fields,  area, bedroom, bathrooms, 'basement', stories, guestroom, parking, areaperbedroom, bbratio-->
+    <form action="{{ url_for('predict')}}" method="post">
+    <!--  <input type="text" name="area" placeholder="Area" required="required" /><br><br>
+      <input type="text" name="bedroom" placeholder="Bedroom" required="required" /><br><br>
+      <input type="text" name="bathrooms" placeholder="Bathrooms" required="required" /><br><br>
+      <input type="text" name="stories" placeholder="Stories" required="required" /><br><br>
+      <input type="text" name="guestroom" placeholder="Guestroom" required="required" /><br><br>
+      <input type="text" name="basement" placeholder="Basement" required="required" /><br><br>
+      <input type="text" name="parking" placeholder="Parking" required="required" /><br><br>
+      <input type="text" name="areaperbedroom" placeholder="AreaPerBedRoom" required="required" /><br><br>
+      <input type="text" name="bbratio" placeholder="BBratio" required="required" /><br><br>
+      -->
+      <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+    <br>
+    <br>
+  <!--  {{ prediction_text }}-->
+
+  </div> 
+  <div align="center">
+    <table>
+        <h1>
+        <!--Displaying the converted table-->
+             {% for table in tables %}
+              </br> </br>
+            <h2>{{titles[loop.index]}}</h2>                            
+              {{ table|safe }}
+              {% endfor %}     
+        </h1> 
+    </table>
+</div>
+
+</body>
+
+</html>
